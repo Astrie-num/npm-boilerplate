@@ -1,15 +1,22 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
+	"version": "1.0.0",
+	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
+	},
+	"keywords": [],
+	"author": {
+	  "name": "Uwumviyimana Astrie",
+	  "email": "uwasterie07@gmail.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+	  "express": "^4.14.0"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git",
-		"author":"uwumviyimana astrie"
+	  "type": "git",
+	  "url": "https://idontknow/todo.git"
 	}
-}
+  }
