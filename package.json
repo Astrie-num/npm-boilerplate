@@ -1,19 +1,15 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"version": "1.0.0",
-	"description": "",
+	"author": "astrie",
+	"dependencies": {
+	  "express": "^4.14.0"
+	},
 	"main": "server.js",
 	"scripts": {
 	  "start": "node server.js"
 	},
-	"keywords": [],
-	"author": {
-	  "name": "Uwumviyimana Astrie",
-	  "email": "uwasterie07@gmail.com"
-	},
-	"license": "MIT",
-	"dependencies": {
-	  "express": "^4.14.0"
+	"engines": {
+	  "node": "8.11.2"
 	},
 	"repository": {
 	  "type": "git",
